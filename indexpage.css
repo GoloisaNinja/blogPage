@@ -6,3 +6,6 @@
     background-repeat: no-repeat;
   }
   
+  #imgOne, #imgTwo, #imgThree {
+    height: 800px;
+  }

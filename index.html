@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Sevens Dungeon</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
   </head>
   <style>
 
-  @media only screen and (max-device-width: 1366px) {
+  body, html {
+    height: 100%;
+    margin: 0;
+    color: #777;
+  }
+
+  @media only screen and (max-device-width: 1024px) {
     #one,#two,#three {
       background-attachment: scroll;
     }
@@ -16,7 +22,7 @@
 
     #one {
       background-image: url("https://i.imgur.com/yPGCvbP.jpg");
-      min-height: 1000px;
+      min-height: 600px;
       position: relative;
       background-attachment: fixed;
       background-position: center;
@@ -26,7 +32,7 @@
     }
     #two {
       background-image: url("https://i.imgur.com/JjyCmin.jpg");
-      min-height: 1000px;
+      min-height: 600px;
       position: relative;
       background-attachment: fixed;
       background-position: center;
@@ -36,7 +42,7 @@
     }
     #three {
       background-image: url("https://i.imgur.com/gBpWpHO.jpg");
-      min-height: 1000px;
+      min-height: 600px;
       position: relative;
       background-attachment: fixed;
       background-position: center;

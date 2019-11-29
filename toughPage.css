@@ -13,9 +13,9 @@ body
 }
 .tile
 {
-  width:380px;
-  height:380px;
-  margin:20px;
+  width:330px;
+  height:330px;
+  margin:10px;
   background-color:#969696;
   display:inline-block;
   background-size:cover;

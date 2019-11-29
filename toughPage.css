@@ -142,4 +142,26 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
    flex-direction: column;
     width:400px;
   }
+
+  .tile.in-view
+  {
+  /*   background-color:#99aeff; */
+  box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+    transform:scale(1.05);
+  }
+  .tile.in-view img
+  {
+    opacity: 0.2;
+  }
+  .tile.in-view .animate-text
+  {
+    transform:translateX(0);
+    opacity:1;
+  }
+  .tile.in-view span
+  {
+    opacity:1;
+    transform:translateY(0px);
+  }
+
 }

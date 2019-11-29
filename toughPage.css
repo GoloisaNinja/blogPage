@@ -135,6 +135,10 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 {
    transition-delay: 0.15s;
 }
+.finePrint {
+  font-size: 0.20em;
+  text-align: center;
+}
 
 
 @media (max-width: 1200px) {

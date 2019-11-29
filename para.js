@@ -48,8 +48,8 @@ var event = ('ontouchstart' in window);
 
 
 function testInView($el){
-    var wTop = $(window).scrollTop();
-    var wBot = wTop + $(window).height();
+    var wTop = $(window).scrollTop() - 50;
+    var wBot = wTop + $(window).height() + 50;
     var eTop = $el.offset().top;
     var eBot = eTop + $el.height();
     return ((eBot <= wBot) && (eTop >= wTop));
@@ -58,7 +58,7 @@ function setInView(){
     $(".tile").each(function(){//testing EVERY div (you might want to be more specific in your implementation)
         var $zis = $(this);
         $zis.removeClass("in-view");
-        if(testInView($zis) && event){
+        if(testInView($zis) && event) {
            $zis.addClass("in-view");
         }
     });

@@ -3,10 +3,6 @@ body
   background-color:#eee;
   overflow-x: hidden;
 }
-.container{
-  width: 100%;
-  white-space: nowrap;
-}
 .wrap
 {
   margin:50px auto 0 auto;

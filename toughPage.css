@@ -180,7 +180,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #555;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -190,7 +190,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: red;
 }
 #myTop {
  
@@ -221,7 +221,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #555;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -231,5 +231,5 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 }
 
 #myAbout:hover {
-  background-color: #555;
+  background-color: red;
 }

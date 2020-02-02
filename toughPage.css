@@ -185,8 +185,11 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   cursor: pointer;
   padding: 15px;
   border-radius: 200px;
-  opacity: 50%;
+  opacity: 65%;
   box-shadow: 0px 8px 6px -6px rgba(0,0,0,0.44);
+}
+#myBtn:hover{
+  background-color: red;
 }
 
 #myTop {
@@ -220,7 +223,10 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   cursor: pointer;
   padding: 15px;
   border-radius: 200px;
-  opacity: 50%;
+  opacity: 65%;
   box-shadow: 0px 8px 6px -6px rgba(0,0,0,0.44);
+}
+#myAbout:hover{
+  background-color: red;
 }
 
